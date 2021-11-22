@@ -45,7 +45,7 @@ export default function LoginUseState() {
         ) : (
           <form className="form" onSubmit={onSubmit}>
             {error && <p className="error">{error}</p>}
-            <p>Please Login!</p>
+            <p>Please Login! (useState)</p>
             <input
               type="text"
               placeholder="username"
